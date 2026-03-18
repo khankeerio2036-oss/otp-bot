@@ -5,8 +5,8 @@ from flask import Flask, request
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
 
-BOT_TOKEN = os.getenv("8259838232:AAHAZRjOQF0VY6vEfM78vC96D9lK9_cO47c")
-ADMIN_ID = int(os.getenv("7768348965"))
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
 DATA_FILE = "data.json"
 
